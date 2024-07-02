@@ -1,0 +1,17 @@
+@import url("./variables.less");
+@import url("./icons.less");
+
+@font-face {
+  font-family: @font-family;
+  src: url('@{font-path}/iconfont.woff2@{time}') format('woff2'),
+  url('@{font-path}/iconfont.woff?@{time}') format('woff'),
+  url('@{font-path}/iconfont.ttf?@{time}') format('truetype')
+}
+
+.@{font-family} {
+  font-family: @font-family !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,16 +1,14 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <div class="app">
-    app
+    <Icon type="home" color="red" :size="30"/>
   </div>
 </template>
 
-<style scoped lang="less">
-@colorRed:red;
-.app{
-  color:@colorRed;
-}
-</style>
+<script setup lang="ts">
+import Icon from "@/components/icon/index.vue"
+
+</script>
+
+
+
+<style scoped lang="less"></style>
